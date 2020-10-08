@@ -1,0 +1,5 @@
+:host {
+  direction: rtl;
+  display: flex;
+  height: 100vh;
+}

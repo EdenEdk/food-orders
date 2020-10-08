@@ -1,0 +1,28 @@
+:host {
+  display: grid;
+  height: 330px;
+  width: 250px;
+}
+
+.dish-card {
+  display: grid;
+  grid-template-rows: 75% 10% 15%;
+  height: 330px;
+  width: 250px;
+}
+
+.dish-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.dish-name {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.dish-desc {
+  font-size: 20px;
+  color: darkgray;
+}

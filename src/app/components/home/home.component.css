@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  flex: 1;
+}
+
+.home-page {
+  flex: 1;
+  display: grid;
+  grid-template-rows: 10% auto 15%;
+}
+
+.dishes-container {
+  display: grid;
+  background-color: #f0f3f9;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+::ng-deep .p-menuitem-link {
+  outline: none;
+  box-shadow: none !important;
+}
